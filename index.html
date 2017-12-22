@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title> Wordlist</title>
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+
+      <header >
+        <h3 class="effect1"> Make a Word-list </h3>
+      </header>
+      <div class="btn" id="btn">
+        <button type="button" id="openLinks" class="openlinks hide" name="button">More</button>
+        <button type="button" id="closeLinks" class="closelinks hide" name="button">Close</button>
+      </div>
+        <div class="links" id="links">
+          <a href="FavList">My Words</a>
+          <a href="Cat">Catagories</a>
+          <a href="contact">Contact</a>
+          <a href="#about">About Us </a>
+        </div>
+
+
+
+       <div class="inputField">
+         <div class="addWord">
+            <form  id="myform" >
+              <input type="text" autofocus class="wordInput shadow" id="word" placeholder="Word">
+              <input type="text" class="trans shadow " id="translation" placeholder="Translation">
+              <button id="addbtn" class="shadow">Add</button>
+          <!--    <input type="submit" value="Add" id="add" class="addbtn"> -->
+            </form>
+            <br><center>
+            <table id="myTable" class="mytbl">
+              <thead class="tblHead">
+                <tr>
+                  <td class="row-fav shadow">Favorite</td>
+                  <td class="row-word shadow">Word</td>
+                  <td class="trans-row shadow">Translation</td>
+                  <td class="row-del shadow">Delete</td>
+                </tr>
+              </thead>
+
+            </table>
+          </center>
+          </div>
+        </div>
+      </div>
+      <left class="left"></left>
+      <right class="right"></right>
+    <script src="script.js" > </script>
+
+</body>
+</html>
