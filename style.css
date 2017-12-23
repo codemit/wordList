@@ -35,6 +35,7 @@ header{
 
 ::-moz-links{
   width: 415px;
+  font-size: 
 }
 .links {
     grid-area: links;
@@ -54,7 +55,7 @@ header{
 
 .links a{
   color: #fff;
-  padding: 13px;
+  padding: 14px;
   font-size: 19px;
   text-decoration: none;
   text-transform: capitalize;
