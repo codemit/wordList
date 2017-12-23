@@ -518,7 +518,7 @@ color: white;
 
   header{
     grid-area: header;
-    font-size: 12px;
+    font-size: 1em;
     color: white;
     align-self: center;
     justify-self: end;
