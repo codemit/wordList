@@ -36,8 +36,8 @@ header{
 
     grid-area: links;
     grid-row: 2;
-    max-width:400px:;
-    width: 420px;
+    max-width:430px:;
+    width: 425px;
     align-self: start;
     justify-self: center;
     height: 27px;
