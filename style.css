@@ -41,7 +41,7 @@ header{
     grid-area: links;
     grid-row: 2;
     max-width:425px:;
-    width: 418px;
+    width: 419px;
     align-self: start;
     justify-self: center;
     height: 27px;
@@ -51,6 +51,7 @@ header{
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     overflow: hidden;
+  padding: -2px;
   }
 
 .links a{
