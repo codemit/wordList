@@ -33,10 +33,6 @@ header{
   display: none;
 }
 
-::-moz-links{
-  width: 413px;
-  font-size: 13px;
-}
 .links {
     grid-area: links;
     grid-row: 2;
