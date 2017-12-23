@@ -34,13 +34,13 @@ header{
 }
 
 ::-moz-links{
-  width: 422px;
+  width: 418px;
 }
 .links {
     grid-area: links;
     grid-row: 2;
     max-width:425px:;
-    width: 422px;
+    width: 418px;
     align-self: start;
     justify-self: center;
     height: 27px;
