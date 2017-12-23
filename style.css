@@ -34,8 +34,8 @@ header{
 }
 
 ::-moz-links{
-  width: 415px;
-  font-size: 14px;
+  width: 413px;
+  font-size: 13px;
 }
 .links {
     grid-area: links;
